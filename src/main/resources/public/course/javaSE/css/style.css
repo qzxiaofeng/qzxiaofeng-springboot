@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+}
+/* 标题设置 
+一共width=1500px  height=60px
+左侧width=500px  height=50px+10px
+右侧width=980px+(左侧的padding 20px) 
+*/
+#title{
+    width: 1500px;
+    height: 60px;
+    /* background-color: rgb(50, 12, 216); */
+}
+.title-a{
+    width: 500px;
+    height: 50px;
+    float: left;
+    /* background-color: #bfa; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* 右侧设置 */
+.title-b{
+    width: 980px;
+    height: 60px;
+    float: left;
+    /* background-color: aqua; */
+}
+.title-b1{
+    width: 300px;
+    height: 40px;
+    float: left;
+    /* box-shadow: 10px 10px 5px #888888; */
+    background-image: linear-gradient(to bottom right, red , yellow);
+    margin-left: 100px; 
+    margin-top: 10px;
+    text-align: center; 
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    
+
+}
+.title-b1-a{
+    text-decoration: none; 
+    display: block;
+    color: black; 
+}
+.title-b1-a:hover{
+    font-size: 25px;
+    color: rgb(245, 7, 7);
+}
+
+.title-b2{
+    width: 300px;
+    height: 60px;
+    float: left;
+    /* background-color: rgb(209, 128, 22); */
+    margin-left: 200px;
+    
+}
+
+form{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border: 0px solid;
+    border-radius: 0.2em;
+    margin-top: 10px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border: 1px solid;
+    border-radius: 0.2em;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: '楷体';
+    padding-left: 10px;
+}
+
+/* 中间的设置 */
+#main{
+    width: 1500px;
+    height: 1150px;
+    /* background-color: #bfa; */
+    margin-top: 20px;
+}
+.main-a{
+    width: 200px;
+    height: 1100px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.main-a1{
+    list-style-type: none;
+    width: 190px;
+    height: 30px;
+    border-bottom: solid;
+    background-color: rgb(246,244,240);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.main-a1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+}
+.main-a1 a:hover{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(150,185,125);
+}
+
+.main-b{
+    width: 1000px;
+    height: 1100px;
+    background-color: rgb(246,246,246);
+    float: left;
+    margin-left: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+/* 底部设置 */
+#foot{
+    width: 1500px;
+    height: 70px;
+    background-color: rgb(247, 249, 250);
+    margin-top: 10px;
+}
+.foot-a{
+    width: 1000px;
+    height: 40px;
+    /* background-color: rgb(51, 238, 4); */
+    padding-top: 20px;
+}
+.foot-a a{
+    text-decoration: none;
+    width: 130px;
+    height: 70px;
+    border: 0px solid ;
+    border-radius: 0.3em;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-left: 5px;
+    box-shadow: 10px 10px 5px rgb(224, 219, 219);
+}
