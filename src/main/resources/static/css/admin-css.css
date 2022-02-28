@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 1400px;
+    height: 600px;
+    border-radius: 0.2em;
+    /* background-color: #bfa; */
+    background-image: url(../img/body2.jpg);
+    margin: 50px auto;
+}
+
+.main-left{
+    width: 700px;
+    height: 600px;
+    /* background-color: aqua; */
+    float: left;
+}
+.main-right{
+    width: 700px;
+    height: 600px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+.right-a{
+    width: 400px;
+    height: 500px;
+    border-radius: 0.2em;
+    background-color: rgb(255,255,255);
+    margin-left: 150px;
+    margin-top: 50px;
+    transition: all 0.6s;
+}
+.right-a:hover{
+    transform: scale(1.05);
+}
