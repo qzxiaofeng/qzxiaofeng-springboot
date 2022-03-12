@@ -1,4 +1,4 @@
-package com.example.qzxiaofengspringboot.pojo;
+package com.example.pojo;
 
 public class user {
     private Integer userId;
